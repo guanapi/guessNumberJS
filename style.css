@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+}
+
+:root {
+    --main-color: #F5F1C6;
+    --dark-purple: #462988;
+    --ligh-purple: #766BCE;
+    --light-gray: #CCCFFF;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--ligh-purple);
+     
+}
+
+.game-container {
+    width: 450px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--dark-purple);
+    box-shadow: 2px 2px 10px var(--main-color);
+    border: 1px solid black;
+}
+
+.game-container h2 {
+    color: var(--main-color);
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 30px;
+}
+
+.input-container {
+    width: 70%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container label {
+    font-size: 25px;
+    color: var(--main-color);
+    margin-bottom: 16px;
+}
+
+.input-container input {
+    margin-bottom: 32px;
+    height: 28px;
+    background-color: var(--light-gray);
+    color: var(--dark-purple);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.input-container button {
+    height: 32px;
+    margin-bottom: 32px;
+    background-color: var(--main-color);
+    color: var(--dark-purple);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.input-container p {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--main-color);
+    text-align: center;
+    margin-bottom: 16px;
+}
